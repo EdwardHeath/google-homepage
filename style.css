@@ -4,16 +4,67 @@
 
 .logo img {
 	display: block;
-	width: 100%;
-	height: auto;
+	margin: auto;
+	width: 25%;
 }
 
 ul {
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
+	padding: 10px;
 }
 
 li {
 	display: inline;
+	padding: 10px;
+}
+
+.left-header {
+	display: inline;
+	float: left;
+}
+
+.right-header {
+	display: inline;
+	float: right;
+}
+
+.left-footer {
+	display: inline;
+	float: left;
+}
+
+.right-footer {
+	display: inline;
+	float: right;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #EEE;
+	border-top: 1px solid grey ;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#search-box {
+	display: block;
+	margin: auto;
+}
+
+.search-button {
+	
+}
+
+#sign-in {
+	background-color: #55F;
+	color: white;
+	padding: 6px;
+	font-weight: bold;
 }
